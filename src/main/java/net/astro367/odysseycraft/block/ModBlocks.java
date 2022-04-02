@@ -24,6 +24,22 @@ public class ModBlocks {
             (BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.ODYSSEY_TAB);
 
+    public static final RegistryObject<Block> FIRE_OPAL_BLOCK = registerBlock("fire_opal_block", () -> new Block
+            (BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.ODYSSEY_TAB);
+
+    public static final RegistryObject<Block> BLACK_OPAL_BLOCK = registerBlock("black_opal_block", () -> new Block
+            (BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.ODYSSEY_TAB);
+
+    public static final RegistryObject<Block> CORRUPT_BLACKSTONE = registerBlock("corrupt_blackstone", () -> new Block
+            (BlockBehaviour.Properties.of(Material.METAL).strength(40f, 1200f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.ODYSSEY_TAB);
+
+    public static final RegistryObject<Block> INCIDIUM_BLOCK = registerBlock("incidium_block", () -> new Block
+            (BlockBehaviour.Properties.of(Material.METAL).strength(75f, 1200f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.ODYSSEY_TAB);
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);

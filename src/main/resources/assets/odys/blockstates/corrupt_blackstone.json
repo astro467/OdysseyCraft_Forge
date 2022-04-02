@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "odys:blocks/corrupt_blackstone" }
+  }
+}
