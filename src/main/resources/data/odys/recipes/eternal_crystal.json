@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "RNZ",
+    " D "
+  ],
+  "key": {
+    "#": {
+      "item": "fire_opal:odys"
+    },
+    "R": {
+      "item": "boulder_opal:odys"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "Z": {
+      "item": "black_opal:odys"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "odys:eternal_crystal",
+    "count": 1
+  }
+}

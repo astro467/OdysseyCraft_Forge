@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "odys:boulder_opal_block",
+    "odys:fire_opal_block",
+    "odys:black_opal_block",
+    "odys:corrupt_blackstone",
+    "odys:incidium_block"
+  ]
+}
