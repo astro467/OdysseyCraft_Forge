@@ -1,16 +1,15 @@
 {
-  "item.odys.boulder_opal": "Boulder Opal",
-  "item.odys.fire_opal": "Fire Opal",
-  "item.odys.black_opal": "Black Opal",
-  "item.odys.eternal_crystal": "Eternal Crystal",
   "item.odys.cyan_incidium_dust": "Cyan Incidium Dust",
   "item.odys.lime_incidium_dust": "Lime Incidium Dust",
   "item.odys.corrupt_essence": "Corrupt Essence",
   "item.odys.incidium_ingot": "Incidium Ingot",
 
-  "block.odys.boulder_opal_block": "Boulder Opal Block",
-  "block.odys.fire_opal_block": "Fire Opal Block",
-  "block.odys.black_opal_block": "Black Opal Block",
+  "item.odys.incidium_sword": "Incidium Sword",
+  "item.odys.incidium_pickaxe": "Incidium Pickaxe",
+  "item.odys.incidium_axe": "Incidium Axe",
+  "item.odys.incidium_shovel": "Incidium Shovel",
+  "item.odys.incidium_hoe": "Incidium Hoe",
+
   "block.odys.corrupt_blackstone": "Corrupt Blackstone",
   "block.odys.incidium_block": "Incidium Block",
 

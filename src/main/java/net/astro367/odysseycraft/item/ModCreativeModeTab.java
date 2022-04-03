@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab ODYSSEY_TAB = new CreativeModeTab("odyssey_tab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.BOULDER_OPAL.get());
+            return new ItemStack(ModItems.INCIDIUM_INGOT.get());
         }
     };
 }

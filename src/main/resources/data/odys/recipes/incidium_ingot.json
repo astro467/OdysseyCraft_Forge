@@ -5,7 +5,7 @@
       "item": "minecraft:copper_ingot"
     },
     {
-      "item": "cyan_incidium_dust:odys"
+      "item": "odys:cyan_incidium_dust"
     },
     {
       "item": "minecraft:copper_ingot"
@@ -14,7 +14,7 @@
       "item": "minecraft:copper_ingot"
     },
     {
-      "item": "lime_incidium_dust:odys"
+      "item": "odys:lime_incidium_dust"
     },
     {
       "item": "minecraft:netherite_ingot"

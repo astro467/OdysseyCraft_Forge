@@ -20,18 +20,6 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, OdysseyCraft.MOD_ID);
 
-    public static final RegistryObject<Block> BOULDER_OPAL_BLOCK = registerBlock("boulder_opal_block", () -> new Block
-            (BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.ODYSSEY_TAB);
-
-    public static final RegistryObject<Block> FIRE_OPAL_BLOCK = registerBlock("fire_opal_block", () -> new Block
-            (BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.ODYSSEY_TAB);
-
-    public static final RegistryObject<Block> BLACK_OPAL_BLOCK = registerBlock("black_opal_block", () -> new Block
-            (BlockBehaviour.Properties.of(Material.METAL).strength(5f, 6f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.ODYSSEY_TAB);
-
     public static final RegistryObject<Block> CORRUPT_BLACKSTONE = registerBlock("corrupt_blackstone", () -> new Block
             (BlockBehaviour.Properties.of(Material.METAL).strength(40f, 1200f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.ODYSSEY_TAB);
