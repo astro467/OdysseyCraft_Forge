@@ -1,6 +1,7 @@
 package net.astro367.odysseycraft.item;
 
 import net.astro367.odysseycraft.OdysseyCraft;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -39,6 +40,18 @@ public class ModItems {
     public static final RegistryObject<Item> INCIDIUM_HOE = ITEMS.register("incidium_hoe",
             () -> new HoeItem(ModTiers.INCIDIUM, 0, -1f,
                     new Item.Properties().tab(ModCreativeModeTab.ODYSSEY_TAB)));
+
+    public static final RegistryObject<Item> INCIDIUM_HELMET = ITEMS.register("incidium_helmet", () ->
+            new ArmorItem(ModArmorMaterials.INCIDIUM, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.ODYSSEY_TAB)));
+
+    public static final RegistryObject<Item> INCIDIUM_CHESTPLATE = ITEMS.register("incidium_chestplate", () ->
+            new ArmorItem(ModArmorMaterials.INCIDIUM, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.ODYSSEY_TAB)));
+
+    public static final RegistryObject<Item> INCIDIUM_LEGGINGS = ITEMS.register("incidium_leggings", () ->
+            new ArmorItem(ModArmorMaterials.INCIDIUM, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.ODYSSEY_TAB)));
+
+    public static final RegistryObject<Item> INCIDIUM_BOOTS = ITEMS.register("incidium_boots", () ->
+            new ArmorItem(ModArmorMaterials.INCIDIUM, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.ODYSSEY_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

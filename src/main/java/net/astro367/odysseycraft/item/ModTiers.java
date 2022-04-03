@@ -1,6 +1,7 @@
 package net.astro367.odysseycraft.item;
 
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
 
