@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "odys:incidium_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "odys:incidium_hoe",
+    "count": 1
+  }
+}

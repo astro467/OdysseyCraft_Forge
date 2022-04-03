@@ -17,9 +17,6 @@ public class ModItems {
     public static final RegistryObject<Item> LIME_INCIDIUM_DUST = ITEMS.register("lime_incidium_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ODYSSEY_TAB)));
 
-    public static final RegistryObject<Item> CORRUPT_ESSENCE = ITEMS.register("corrupt_essence",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ODYSSEY_TAB)));
-
     public static final RegistryObject<Item> INCIDIUM_INGOT = ITEMS.register("incidium_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ODYSSEY_TAB)));
 
@@ -42,7 +39,6 @@ public class ModItems {
     public static final RegistryObject<Item> INCIDIUM_HOE = ITEMS.register("incidium_hoe",
             () -> new HoeItem(ModTiers.INCIDIUM, 0, -1f,
                     new Item.Properties().tab(ModCreativeModeTab.ODYSSEY_TAB)));
-
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
