@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "odys:incidium_ingot"
+    }
+  },
+  "result": {
+    "item": "odys:incidium_leggings",
+    "count": 1
+  }
+}
